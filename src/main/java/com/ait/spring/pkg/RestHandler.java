@@ -7,14 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestHandler {
 
 	@RequestMapping("/")
-	public String index()
-	{
+	public String index() {
 		return "welcome ....";
 	}
-	
+
 	@RequestMapping("/message")
-	public String index(String message)
-	{
+	public String index(String message) {
 		return message;
 	}
 }

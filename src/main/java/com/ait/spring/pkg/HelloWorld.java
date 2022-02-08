@@ -2,7 +2,6 @@ package com.ait.spring.pkg;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 public class HelloWorld {
@@ -12,7 +11,4 @@ public class HelloWorld {
 		SpringApplication.run(HelloWorld.class, args);
 		System.out.println("done...");
 	}
-	
-	
-
 }
